@@ -1,4 +1,4 @@
-{% set version = "0.2.2" %}
+{% set version = "0.2.3" %}
 
 package:
   name: cdsswarm
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/c/cdsswarm/cdsswarm-{{ version }}.tar.gz
-  sha256: 993dc350d8a72d1ebac9fb813c48ac5af5dc50c6c06d230fa466e89362fdff33
+  sha256: e72552402c4ae775547772b8e9b52601dbc80c78b28faea95be4a9c76d1e5899
 
 build:
   noarch: python
